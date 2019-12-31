@@ -7,3 +7,8 @@ Affy system is used to code corresponding methylation scores (ie if Methyl(beta)
 Data is compiled from an in-house project where DNA methylation (EPIC) and Genotyping (affymatrix) data are available for a cohort of 1,500 individuals. 
 
 This table was built upon a previous effort from [ttriche/infiniumSnps] (https://github.com/ttriche/infiniumSnps) and credit must be given to **Tim Triche**.
+
+#To do list (not immediate future):
+- Build a function to import genotype from platforms (ie Illumina & Affy)
+- Build a function to extract and import imputed genotype data (bgen, plink, vcf)
+- Build a function that streamlines fingerprinting process and report back accuracy and mismatches, perhaps with a user-settalbe threshold.
